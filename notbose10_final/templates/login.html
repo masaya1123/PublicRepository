@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>ログイン</h1>
+<form action="/login" method="POST">
+<table border="0">
+    <tr>
+        <td align="right"><b>メールアドレス：</b></td>
+        <td><input type="email" name="email" size="50" maxlength="50"></td>
+    </tr>
+    <tr>
+        <td align="right"><b>パスワード：</b></td>
+        <td><input type="password" name="password" size="50" maxlength="20"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="submit" value="ログイン"></td>
+    </tr>
+</table>
+</form>
+
+<!-- <form action="/login" method="post">
+  名前：<input type="text" name="name"><br>
+  パスワード：<input type="password" name="password"><br>
+  <input type="submit" value="ログイン">
+</form> -->
+
+{% endblock %}

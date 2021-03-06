@@ -1,0 +1,295 @@
+@media screen and (max-width:959px) {
+    .heading {
+        font-size: 20px;
+        color: #0000CC;
+    }
+
+    b {
+        font-size: 10px;
+    }
+
+    td {
+        display: block;
+        width: 100%;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .full-page {
+        width: 100vw;
+        height: 100vh;
+        background: #D9E5FF;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .sec1 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .sec2 {
+        text-align: center;
+        font-size: 30px;
+        color: #0000CC;
+    }
+
+    .sec3 {
+        text-align: center;
+        color: #FF6666;
+        font-size: 15px;
+    }
+
+    .text1 {
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+        color: #993399;
+    }
+
+    .text2 {
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+        color: #993399;
+    }
+
+    .text3 {
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+        color: #993399;
+    }
+
+    .sec4 {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 30px;
+        color: #0000CC;
+    }
+
+    .text4 {
+        font-size: 15px;
+        color: #FF6666;
+    }
+
+    .triangle3 {
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid black;
+        margin-left: 20px;
+    }
+
+    .sec7 {
+        text-align: center;
+        color: #0066CC;
+        font-size: 20px;
+    }
+
+    .header {
+        background-color: #D9E5FF;
+    }
+
+    .sec8 {
+        color: #FF6666;
+        font-size: 20px;
+    }
+
+    .sec5 {
+        color: #006666;
+        font-size: 20px;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    li::before {
+        position: relative;
+        top: -2px;
+        left: -18px;
+
+        display: inline-block;
+
+        width: 6px;
+        height: 6px;
+
+        content: '';
+
+        border-radius: 100%;
+        background: darkturquoise;
+    }
+
+    .text5 {
+        color: #993399;
+    }
+
+    .heading {
+        font-size: 20px;
+        color: #0000CC;
+    }
+
+    b {
+        font-size: 10px;
+    }
+
+    td {
+        display: block;
+        width: 100%;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .full-page {
+        width: 100vw;
+        height: 100vh;
+        background: #D9E5FF;
+    }
+
+}
+
+
+
+@media screen and (min-width:959px) {
+    .sec1 {
+        margin-left: 100px;
+    }
+
+    .sec2 {
+        margin-left: 150px;
+        font-size: 50px;
+        color: #0000CC;
+    }
+
+    .sec3 {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 40px;
+        color: #FF6666;
+    }
+
+    .text1 {
+        letter-spacing: 5px;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 50px;
+        color: #993399;
+    }
+
+    .text2 {
+        letter-spacing: 5px;
+        font-size: 30px;
+        text-align: center;
+        color: #993399;
+    }
+
+    .text3 {
+        letter-spacing: 5px;
+        font-size: 30px;
+        text-align: center;
+        color: #993399;
+    }
+
+    .sec4 {
+        margin-left: 180px;
+        margin-top: 100px;
+        font-size: 40px;
+        color: #0000CC;
+    }
+
+    .text4 {
+        font-size: 30px;
+        color: #FF6666;
+    }
+
+    .triangle3 {
+        width: 0;
+        height: 0;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-top: 30px solid black;
+        margin-left: 30px;
+    }
+
+
+
+    .sec7 {
+        text-align: center;
+        color: #0066CC;
+    }
+
+    .header {
+        background-color: #D9E5FF;
+    }
+
+    .sec8 {
+        color: #FF6666;
+    }
+
+
+
+    .sec5 {
+        color: #006666;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    li::before {
+        position: relative;
+        top: -2px;
+        left: -18px;
+
+        display: inline-block;
+
+        width: 6px;
+        height: 6px;
+
+        content: '';
+
+        border-radius: 100%;
+        background: darkturquoise;
+    }
+
+    .text5 {
+        color: #993399;
+    }
+
+    .login {
+        display: block;
+        text-align: right;
+        margin-right: 100px;
+    }
+
+    .signup {
+        display: block;
+        text-align: right;
+        margin-right: 100px;
+        margin-top: 10px;
+    }
+
+    .heading {
+        margin-left: 300px;
+        color: #0000CC;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .full-page {
+        width: 100vw;
+        height: 100vh;
+        background: #D9E5FF;
+    }
+}

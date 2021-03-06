@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>習慣追加（新規）</h1>
+    <form action="/set_newhabits" method="POST">
+        <table border="0">
+            <tr>
+                <td align="right"><b>設定する習慣</b></td>
+                <td><input type="text" name="task" size="100" maxlength="100"></td>
+            </tr>
+            <tr>
+                <td align="right"><b>続ける日数</b></td>
+                <td><input type="text" name="days" size="30" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td align="right"><b>通知時間</b></td>
+                <td><input type="text" name="time" size="30" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="設定"></td>
+            </tr>
+        </table>
+    </form>
+
+
+{% endblock %}
